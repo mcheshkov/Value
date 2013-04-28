@@ -1,0 +1,39 @@
+#loginDiv, #myValueColon, #logoutBtn, #gameDiv {
+    display: none;
+}
+
+.storyLine {
+    display: block;
+}
+
+#headerDiv, #loginDiv {
+    width: 400px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logoutBtn {
+    float: right;
+}
+
+#gameDiv {
+    width: 700px ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gameActions, #onlinePlayersDiv {
+    float: left;
+}
+
+#storyContainer {
+    float: left;
+    width: 400px;
+    text-align: center;
+    /*font-size: 80%;*/
+}
+
+.action {
+    text-decoration: underline;
+    cursor: pointer;
+}

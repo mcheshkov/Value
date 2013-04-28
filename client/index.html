@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>&gt;alue</title>
+    <link rel="stylesheet" type="text/css" href="/my/style.css">
+</head>
+<body>
+<div id="headerDiv">
+    <h1>&gt;alue <span id="myValueColon">:</span><span id="myValue"></span></h1>
+    <h3>Welcome!</h3>
+    <div id="errorText"></div>
+</div>
+<div id="loginDiv">
+    <label>
+        Login <input name="login" type="text" id="loginText">
+    </label>
+    <button type="button" disabled id="loginBtn">Play!</button>
+</div>
+<button type="button" id="logoutBtn">Logout</button>
+
+
+<div id="gameDiv">
+    <div id="gameActions">
+        <a id="searchMonster" class="action">Search for monster</a>
+    </div>
+    <div id="storyContainer">
+        Log:
+        <div id="story"></div>
+    </div>
+    <div id="onlinePlayersDiv">
+        Online players:
+        <ul id="onlinePlayers"></ul>
+    </div>
+</div>
+</body>
+<script src="/v/jquery-1.9.1.min.js"></script>
+<script src="/v/jquery.cookie.js"></script>
+<script src="/my/script.js"></script>
+</html>
